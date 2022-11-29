@@ -1,0 +1,81 @@
+
+:root {
+    --color:primary: #212121;
+    --color:secondary: #757575;
+    --color:text-action: #2196F3;
+}
+
+.page-header {
+    background-color: #FFFFFF;
+}
+
+
+.logo {
+    color: black;
+}
+
+.nav-header {
+    color: #212121 ;
+}
+
+.nav-header:hover {
+    color: #2196F3;
+    cursor: pointer;
+}
+
+.link-logo {
+    color: #2196F3;
+}
+
+.auth-nav {
+    color: #757575;
+}
+
+.auth-nav:hover {
+    color: #2196F3;
+}
+
+
+/*Герой*/
+
+.hero-section {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+}
+ 
+.button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2196F3;
+}
+
+/*Переваги*/
+
+.main-section {
+    background-color: #F5F5F5;
+    list-style-type: none ;
+}
+.subtitle {
+    color: #757575 ;
+}
+
+/*Наша команда*/
+.section {
+    background-color: #F5F4FA;
+}
+
+/*Footer*/
+.footer {
+    background-color:#2F303A ;
+}
+
+.adress {
+    color: #FFFFFF;
+}
