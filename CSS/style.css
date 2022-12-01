@@ -1,40 +1,53 @@
 
 :root {
-    --color:primary: #212121;
-    --color:secondary: #757575;
-    --color:text-action: #2196F3;
+    --color-primary: #212121;
+    --color-secondary: #757575;
+    --color-text-action: #2196F3;
 }
 
 .page-header {
     background-color: #FFFFFF;
 }
 
-
 .logo {
     color: black;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.17;
+    font-weight: 700;   
 }
 
 .nav-header {
-    color: #212121 ;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.17;
+    font-weight: 500;
 }
-
+    
 .nav-header:hover {
-    color: #2196F3;
-    cursor: pointer;
+    color: var(--color-text-action);
+    cursor: pointer;  
 }
 
 .link-logo {
-    color: #2196F3;
+    color: var(--color-text-action);  
 }
 
 .auth-nav {
-    color: #757575;
+    color: var(--color-secondary);
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.17;
+    font-weight: 500;
 }
 
 .auth-nav:hover {
-    color: #2196F3;
+    color: var(--color-text-action);
 }
-
 
 /*Герой*/
 
@@ -44,26 +57,66 @@
 
 .hero-title {
     color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
 }
  
 .button {
-    background-color: #2196F3;
+    background-color: var(--color-text-action);
     color: #FFFFFF;
     cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.88;
+    font-weight: 700;
+
 }
 
 .button:hover {
-    background-color: #2196F3;
+    background-color: var(--color-text-action);
 }
 
 /*Переваги*/
 
 .main-section {
     background-color: #F5F5F5;
-    list-style-type: none ;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.17;
+    font-weight: 700;
 }
+.main-title {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    line-height: 1.17;
+    font-weight: 700;
+}
+
+.title {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.17;
+    font-weight: 500;
+}
+
+
 .subtitle {
-    color: #757575 ;
+    color: var(--color-secondary) ;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.17;
+    font-weight: 400;
+    }
+}
+
+.lead{
+    color: var(--color-primary)
+}
+
+.text {
+color: var(--color-secondary);
 }
 
 /*Наша команда*/
@@ -74,8 +127,13 @@
 /*Footer*/
 .footer {
     background-color:#2F303A ;
+
 }
 
 .adress {
     color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 400;
 }
